@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business card</title>
+    <style>
+        body{
+            background: url("https://img3.wallspic.com/crops/6/6/1/2/7/172166/172166-cyberpunk_2077-cyberpunk-brigitte-light-purple-1920x1080.png") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container{
+            margin: 200px auto;
+            padding: 15px;
+            background-color: pink;
+            width: 400px;
+            height: 160px;
+            color: purple;
+        }
+        .business-card img{
+            float: left;
+        }
+        .username,.email,.phone,.download-cv{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;  
+            font-size: 15px;
+        }
+        .username span{
+            border-bottom: 2px solid darkcyan;
+            padding-bottom: 2px;
+            font-weight: bold;
+        }
+        .email{
+            font-size: 14px;
+        }
+        .phone a{
+            font-weight: lighter;
+            text-decoration: none;
+            color: darkcyan;
+        }
+        .download-cv a{
+            font-weight: lighter;
+            font-size: 10px;
+            text-decoration: none;
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/men/63.jpg" alt="">
+            <p class="username">
+                <span>Harvey Evans</span>
+            </p>
+            <p class="email">
+                <span>harvey.evans@example.com</span>
+            </p>
+            <p class="phone">
+                <span>
+                    <a href="tel:#">(294) 974-0318</a>
+                </span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
